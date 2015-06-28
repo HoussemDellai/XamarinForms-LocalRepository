@@ -9,4 +9,4 @@ This project uses Json.net to perform serialization and deserialization.
 
 Here is a screenshot for the application running on Windows Phone:
 
-<img src="https://pbs.twimg.com/media/CIlLs7tUAAAty5u.jpg"/>
+<img src="https://pbs.twimg.com/media/CIlM6WEVAAEw8C_.jpg"/>
