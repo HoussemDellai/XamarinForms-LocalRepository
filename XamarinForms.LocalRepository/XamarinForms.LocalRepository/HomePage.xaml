@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms.LocalRepository.HomePage" 
+             Padding="10">
+
+  <StackLayout Orientation="Vertical"
+               TranslationY="50">
+
+    <Label Text="Fullname"
+           TranslationX="10"/>
+    <Entry Text="{Binding Employee.Fullname}"/>
+
+    <Label Text="Department"
+           TranslationX="10"/>
+    <Entry Text="{Binding Employee.Department}"/>
+
+    <Label Text="Date of birth"
+           TranslationX="10"/>
+    <DatePicker Date="{Binding Employee.DateOfBirth}"/>
+    
+    <Button Text="Save to local database"
+            Command="{Binding SaveEmployeeCommand}"/>
+
+   <Button Text="Get from local database"
+            Command="{Binding GetEmployeeCommand}"/>
+  
+  </StackLayout>
+
+</ContentPage>
