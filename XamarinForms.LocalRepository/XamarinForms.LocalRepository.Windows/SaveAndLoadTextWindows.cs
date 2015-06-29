@@ -8,6 +8,12 @@ using XamarinForms.LocalRepository.Windows;
 
 namespace XamarinForms.LocalRepository.Windows
 {
+
+    /// <summary>
+    /// Read and save data to files.
+    /// More documentation here:
+    /// https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh758325.aspx
+    /// </summary>
     public class SaveAndLoadTextWindows : ISaveAndLoadText
     {
 
